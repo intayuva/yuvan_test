@@ -1,0 +1,36 @@
+Trying 192.168.225.1...
+Connected to 192.168.225.1.
+Escape character is '^]'.
+tc login: admin
+admin
+Password: admin
+
+# iwpriv ra0 copy_to_user devinfo
+iwpriv ra0 copy_to_user devinfo
+ra0       copy_to_user:
+Device MAC
+Operation Mode: AP
+WirelessMode: B/G/gN(14)
+Channel: 1
+        CentralChannel: 3
+        RF Channel: 3
+Bandwidth
+        HT-BW: 20/40
+Security
+### BSS(0)
+AuthMode(7)=WPA2PSK
+WepStatus(6)=AES
+I/F(ra0) WPAPSK Key =>12345679
+### BSS(1)
+AuthMode(7)=WPA2PSK
+WepStatus(6)=AES
+I/F(ra1) WPAPSK Key =>Airtel@123
+### BSS(2)
+AuthMode(7)=WPA2PSK
+WepStatus(6)=AES
+I/F(ra2) WPAPSK Key =>Airtel@123
+### BSS(3)
+AuthMode(0)=OPEN
+WepStatus(1)=NONE
+open mode ,none key
+exit

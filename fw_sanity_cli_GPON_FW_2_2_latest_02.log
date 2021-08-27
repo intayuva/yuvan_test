@@ -1,0 +1,1009 @@
+['Device_SN', 'ERM_VERSION', 'FIRMWARE_VERSION', '24G_RA0_DEVINFO', '5G_RAI0_DEVINFO', '24G_RA0_STATINFO', '5G_RAI0_STATINFO', '24G_RA0_GET_STA_LIST', '5G_RAI0_GET_STA_LIST', '24G_RA0_GET_STA_LIST', 'WLM_APCLII0_DEVCONNSTATUS', '24G_RA0_CLICOUNT', '24G_RA0_CLI_INFO', '24G_STA_INFO', '5G_STA_INFO', '5G_C2USR_RSTAT', '24G_C2USR_MBSS', '5G_C2USR_MBSS']
+/mnt/c/Users/Youvanesh/automation/cmdvalid
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON
+Results are stored at dir 
+ /mnt/c/Users/Youvanesh/automation/cmdvalid/output 
+ /mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08
+b client updated to cmdlist
+a client updated to cmdlist
+Full script is executed
+[]
+['cat /tmp/sn', 'cat /tmp/erm/version', 'cat /tmp/fw_ver', 'iwpriv ra0 copy_to_user devinfo', 'iwpriv rai0 copy_to_user devinfo', 'iwpriv ra0 copy_to_user statinfo', 'iwpriv rai0 copy_to_user statinfo', 'iwpriv ra0 copy_to_user get_stalist', 'iwpriv rai0 copy_to_user get_stalist', 'iwpriv ra0 copy_to_user get_stalist', 'iwpriv apclii0 copy_to_user devconnStatus', 'iwpriv ra0 copy_to_user clientcountinfo', 'iwpriv ra0 copy_to_user clientinfo', 'iwpriv ra0 copy_to_user get_stainfo=6e:17:9a:f8:21:b5', 'iwpriv rai0 copy_to_user get_stainfo=08:71:90:1B:31:6D', 'iwpriv rai0 copy_to_user radiostat', 'iwpriv ra0 copy_to_user get_mbssinfo', 'iwpriv rai0 copy_to_user get_mbssinfo']
+['Device_SN', 'ERM_VERSION', 'FIRMWARE_VERSION', '24G_RA0_DEVINFO', '5G_RAI0_DEVINFO', '24G_RA0_STATINFO', '5G_RAI0_STATINFO', '24G_RA0_GET_STA_LIST', '5G_RAI0_GET_STA_LIST', '24G_RA0_GET_STA_LIST', 'WLM_APCLII0_DEVCONNSTATUS', '24G_RA0_CLICOUNT', '24G_RA0_CLI_INFO', '24G_STA_INFO', '5G_STA_INFO', '5G_C2USR_RSTAT', '24G_C2USR_MBSS', '5G_C2USR_MBSS']
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/Device_SN.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'2\n'
+b'2\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_1_Device_SN.log	 -	PASSED/PASSED/PASSED
+ | cat /tmp/sn	 	 	 	 | cat /tmp/sn	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | SROT2A000057	 	 	 	 | SROT2A000057	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/ERM_VERSION.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'2\n'
+b'2\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_2_ERM_VERSION.log	 -	PASSED/PASSED/PASSED
+ | cat /tmp/erm/version	 	 	 	 | cat /tmp/erm/version	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | en7528_AA_PNS_1.1.2.31	 	 	 	 | en7528_AA_P_1.1.2.39	 	 	 	FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+en7528_AA_P_1.1.2.39_FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/FIRMWARE_VERSION.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'2\n'
+b'2\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_3_FIRMWARE_VERSION.log	 -	PASSED/PASSED/PASSED
+ | cat /tmp/fw_ver	 	 	 	 | cat /tmp/fw_ver	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AOT4221SR_R2.0	 	 	 	 | AOT4221SR_R2.2	 	 	 	FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+AOT4221SR_R2.2_FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_DEVINFO.log
+b'9\n'
+b'9\n'
+PASS:= ...Special Char Count PASSED
+b'1\n'
+b'1\n'
+PASS:- ...Special Char Count PASSED
+b'9\n'
+b'9\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_4_24G_RA0_DEVINFO.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user devinfo	 	 	 	 | iwpriv ra0 copy_to_user devinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Device MAC	 	 	 	 | Device MAC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Operation Mode: AP	 	 	 	 | Operation Mode: AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WirelessMode: B/G/gN(14)	 	 	 	 | WirelessMode: B/G/gN(14)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Channel: 1	 	 	 	 | Channel: 11	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         CentralChannel: 3	 	 	 	 |         CentralChannel: 11	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         RF Channel: 3	 	 	 	 |         RF Channel: 11	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Bandwidth	 	 	 	 | Bandwidth	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         HT-BW: 20/40	 	 	 	 |         HT-BW: 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Security	 	 	 	 | Security	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ### BSS(0)	 	 	 	 | ### BSS(0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AuthMode(4)=WPAPSK	 	 	 	 | AuthMode(4)=WPAPSK	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WepStatus(4)=TKIP	 	 	 	 | WepStatus(4)=TKIP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | I/F(ra0) WPAPSK Key =>Airtel@123	 	 	 	 | I/F(ra0) WPAPSK Key =>Airtel@123	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ### BSS(1)	 	 	 	 | ### BSS(1)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AuthMode(0)=OPEN	 	 	 	 | AuthMode(0)=OPEN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WepStatus(1)=NONE	 	 	 	 | WepStatus(1)=NONE	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | open mode ,none key	 	 	 	 | open mode ,none key	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ### BSS(2)	 	 	 	 | ### BSS(2)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AuthMode(0)=OPEN	 	 	 	 | AuthMode(0)=OPEN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WepStatus(1)=NONE	 	 	 	 | WepStatus(1)=NONE	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | open mode ,none key	 	 	 	 | open mode ,none key	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ### BSS(3)	 	 	 	 | ### BSS(3)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AuthMode(0)=OPEN	 	 	 	 | AuthMode(0)=OPEN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WepStatus(1)=NONE	 	 	 	 | WepStatus(1)=NONE	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | open mode ,none key	 	 	 	 | open mode ,none key	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | exit	 	 	 	 | exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_RAI0_DEVINFO.log
+b'10\n'
+b'10\n'
+PASS:= ...Special Char Count PASSED
+b'1\n'
+b'1\n'
+PASS:- ...Special Char Count PASSED
+b'94\n'
+b'94\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_5_5G_RAI0_DEVINFO.log	 -	PASSED/PASSED/PASSED
+ | iwpriv rai0 copy_to_user devinfo	 	 	 	 | iwpriv rai0 copy_to_user devinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | rai0      copy_to_user:	 	 	 	 | rai0      copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Device MAC	 	 	 	 | Device MAC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Operation Mode: AP	 	 	 	 | Operation Mode: AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ---------------------==========BBP radio information==========	 	 	 	 | ---------------------==========BBP radio information==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ##########WDEV radio information##########	 	 	 	 | ##########WDEV radio information##########	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(0)==========	 	 	 	 | ==========wdev(0)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : AP	 	 	 	 | type    : AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 0	 	 	 	 | fun_idx : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 44	 	 	 	 | channel : 157	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 42	 	 	 	 | cen_ch1 : 155	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20/40)	 	 	 	 | ht_bw   : (20/40,20/40)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,ABOVE)	 	 	 	 | ext_ch  : (BELOW,ABOVE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,1)	 	 	 	 | vht_bw  : (1,1)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20/40/80	 	 	 	 | bw      : 20/40/80	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(1)==========	 	 	 	 | ==========wdev(1)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : AP	 	 	 	 | type    : AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 1	 	 	 	 | fun_idx : 1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(2)==========	 	 	 	 | ==========wdev(2)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : AP	 	 	 	 | type    : AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 2	 	 	 	 | fun_idx : 2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(3)==========	 	 	 	 | ==========wdev(3)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : AP	 	 	 	 | type    : AP	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 3	 	 	 	 | fun_idx : 3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 44	 	 	 	 | channel : 157	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 42	 	 	 	 | cen_ch1 : 155	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20/40)	 	 	 	 | ht_bw   : (20/40,20/40)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,ABOVE)	 	 	 	 | ext_ch  : (BELOW,ABOVE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,1)	 	 	 	 | vht_bw  : (1,1)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20/40/80	 	 	 	 | bw      : 20/40/80	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(4)==========	 	 	 	 | ==========wdev(4)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : STA	 	 	 	 | type    : STA	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 0	 	 	 	 | fun_idx : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(5)==========	 	 	 	 | ==========wdev(5)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : WDS	 	 	 	 | type    : WDS	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 0	 	 	 	 | fun_idx : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(6)==========	 	 	 	 | ==========wdev(6)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : WDS	 	 	 	 | type    : WDS	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 1	 	 	 	 | fun_idx : 1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(7)==========	 	 	 	 | ==========wdev(7)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : WDS	 	 	 	 | type    : WDS	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 2	 	 	 	 | fun_idx : 2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ==========wdev(8)==========	 	 	 	 | ==========wdev(8)==========	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | type    : WDS	 	 	 	 | type    : WDS	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fun_idx : 3	 	 	 	 | fun_idx : 3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | wmode   : A/aN/AC	 	 	 	 | wmode   : A/aN/AC	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | channel : 0	 	 	 	 | channel : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch1 : 0	 	 	 	 | cen_ch1 : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ht_bw   : (20/40,20)	 	 	 	 | ht_bw   : (20/40,20)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ext_ch  : (BELOW,NONE)	 	 	 	 | ext_ch  : (BELOW,NONE)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | cen_ch2 : (0,0)	 	 	 	 | cen_ch2 : (0,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | vht_bw  : (1,0)	 	 	 	 | vht_bw  : (1,0)	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bw      : 20	 	 	 	 | bw      : 20	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | exit	 	 	 	 | exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_STATINFO.log
+b'74\n'
+b'74\n'
+PASS:= ...Special Char Count PASSED
+b'9\n'
+b'9\n'
+PASS:- ...Special Char Count PASSED
+b'9\n'
+b'9\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_6_24G_RA0_STATINFO.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user statinfo	 	 	 	 | iwpriv ra0 copy_to_user statinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmitCountFromOS = 12	 	 	 	 | TransmitCountFromOS = 174	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmittedFragmentCount = 6	 	 	 	 | TransmittedFragmentCount = 90	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MulticastTransmittedFrameCount = 6	 	 	 	 | MulticastTransmittedFrameCount = 83	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | FailedCount = 0	 	 	 	 | FailedCount = 4	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RetryCount = 0	 	 	 	 | RetryCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MultipleRetryCount = 0	 	 	 	 | MultipleRetryCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RTSSuccessCount = 0	 	 	 	 | RTSSuccessCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RTSFailureCount = 0	 	 	 	 | RTSFailureCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ACKFailureCount = 0	 	 	 	 | ACKFailureCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | FrameDuplicateCount = 0	 	 	 	 | FrameDuplicateCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ReceivedFragmentCount = 1050	 	 	 	 | ReceivedFragmentCount = 612	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MulticastReceivedFrameCount = 0	 	 	 	 | MulticastReceivedFrameCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Rx drop due to out of resource  = 0	 	 	 	 | Rx drop due to out of resource  = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RealFcsErrCount = 303	 	 	 	 | RealFcsErrCount = 289	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | FCSErrorCount = 303	 	 	 	 | FCSErrorCount = 289	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | FrameDuplicateCount.LowPart = 0	 	 	 	 | FrameDuplicateCount.LowPart = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmittedFrameCount = 0	 	 	 	 | TransmittedFrameCount = 7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WEPUndecryptableCount = 0	 	 	 	 | WEPUndecryptableCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ===Some 11n statistics variables: 	 	 	 	 | ===Some 11n statistics variables: 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxAMSDUCount = 0	 	 	 	 | TxAMSDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxAMSDUCount = 0	 	 	 	 | RxAMSDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmittedAMPDUCount = 0	 	 	 	 | TransmittedAMPDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmittedMPDUsInAMPDUCount = 0	 	 	 	 | TransmittedMPDUsInAMPDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TransmittedOctetsInAMPDUCount = 0	 	 	 	 | TransmittedOctetsInAMPDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MPDUInReceivedAMPDUCount = 0	 	 	 	 | MPDUInReceivedAMPDUCount = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | fAnyStaFortyIntolerant=0	 	 	 	 | fAnyStaFortyIntolerant=0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra0 -- 	 	 	 	 | -- IF-ra0 -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Received = 1498	 	 	 	 | Packets Received = 1450	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent = 966	 	 	 	 | Packets Sent = 920	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Bytes Received = 267216	 	 	 	 | Bytes Received = 67254	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Byte Sent = 488991	 	 	 	 | Byte Sent = 114027	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Error Packets Received = 25	 	 	 	 | Error Packets Received = 50	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Drop Received Packets = 587	 	 	 	 | Drop Received Packets = 1271	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WscInfo:	 	 	 	 | WscInfo:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfMode=7	 	 	 	 |         WscConfMode=7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscMode=PIN	 	 	 	 |         WscMode=PIN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfStatus=2	 	 	 	 |         WscConfStatus=2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscPinCode=21506215	 	 	 	 |         WscPinCode=21506215	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscState=0x0	 	 	 	 |         WscState=0x0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscStatus=0x1	 	 	 	 |         WscStatus=0x1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra0 end -- 	 	 	 	 | -- IF-ra0 end -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra1 -- 	 	 	 	 | -- IF-ra1 -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Received = 0	 	 	 	 | Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent = 0	 	 	 	 | Packets Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Bytes Received = 0	 	 	 	 | Bytes Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Byte Sent = 0	 	 	 	 | Byte Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Error Packets Received = 0	 	 	 	 | Error Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Drop Received Packets = 0	 	 	 	 | Drop Received Packets = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WscInfo:	 	 	 	 | WscInfo:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfMode=7	 	 	 	 |         WscConfMode=7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscMode=PIN	 	 	 	 |         WscMode=PIN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfStatus=2	 	 	 	 |         WscConfStatus=2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscPinCode=534697	 	 	 	 |         WscPinCode=534697	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscState=0x0	 	 	 	 |         WscState=0x0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscStatus=0x1	 	 	 	 |         WscStatus=0x1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra1 end -- 	 	 	 	 | -- IF-ra1 end -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra2 -- 	 	 	 	 | -- IF-ra2 -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Received = 0	 	 	 	 | Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent = 0	 	 	 	 | Packets Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Bytes Received = 0	 	 	 	 | Bytes Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Byte Sent = 0	 	 	 	 | Byte Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Error Packets Received = 0	 	 	 	 | Error Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Drop Received Packets = 0	 	 	 	 | Drop Received Packets = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WscInfo:	 	 	 	 | WscInfo:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfMode=7	 	 	 	 |         WscConfMode=7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscMode=PIN	 	 	 	 |         WscMode=PIN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfStatus=1	 	 	 	 |         WscConfStatus=1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscPinCode=11020455	 	 	 	 |         WscPinCode=11020455	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscState=0x0	 	 	 	 |         WscState=0x0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscStatus=0x1	 	 	 	 |         WscStatus=0x1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra2 end -- 	 	 	 	 | -- IF-ra2 end -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra3 -- 	 	 	 	 | -- IF-ra3 -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Received = 0	 	 	 	 | Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent = 0	 	 	 	 | Packets Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Bytes Received = 0	 	 	 	 | Bytes Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Byte Sent = 0	 	 	 	 | Byte Sent = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Error Packets Received = 0	 	 	 	 | Error Packets Received = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Drop Received Packets = 0	 	 	 	 | Drop Received Packets = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | WscInfo:	 	 	 	 | WscInfo:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfMode=7	 	 	 	 |         WscConfMode=7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscMode=PIN	 	 	 	 |         WscMode=PIN	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscConfStatus=1	 	 	 	 |         WscConfStatus=1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscPinCode=21506215	 	 	 	 |         WscPinCode=21506215	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscState=0x0	 	 	 	 |         WscState=0x0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ |         WscStatus=0x1	 	 	 	 |         WscStatus=0x1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | -- IF-ra3 end -- 	 	 	 	 | -- IF-ra3 end -- 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 6e:17:9a:f8:21:b5 - 1   	 	 	 	 | 6e:17:9a:f8:21:b5 - 1   	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_RAI0_STATINFO.log
+b'83\n'
+b'83\n'
+PASS:= ...Special Char Count PASSED
+b'9\n'
+b'10\n'
+FAIL: - ...Special_Char COUNT FAILED
+b'8\n'
+b'9\n'
+FAIL: : ...Special_Char COUNT FAILED
+TC:TC_ID_7_5G_RAI0_STATINFO.log	 -	PASSED/FAILED/FAILED
+COL_FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_GET_STA_LIST.log
+b'1\n'
+b'1\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'4\n'
+b'4\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_8_24G_RA0_GET_STA_LIST.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user get_stalist	 	 	 	 | iwpriv ra0 copy_to_user get_stalist	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	 | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_RAI0_GET_STA_LIST.log
+b'2\n'
+b'2\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'5\n'
+b'5\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_9_5G_RAI0_GET_STA_LIST.log	 -	PASSED/PASSED/PASSED
+ | iwpriv rai0 copy_to_user get_stalist	 	 	 	 | iwpriv rai0 copy_to_user get_stalist	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | rai0      copy_to_user:	 	 	 	 | rai0      copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                 = 08:71:90:1B:31:6D;BSS                 = 0	 	 	 	 | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	 | MAC                 = 08:71:90:1B:31:6D;BSS                 = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_GET_STA_LIST.log
+b'1\n'
+b'1\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'4\n'
+b'4\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_10_24G_RA0_GET_STA_LIST.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user get_stalist	 	 	 	 | iwpriv ra0 copy_to_user get_stalist	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	 | MAC                 = 6E:17:9A:F8:21:B5;BSS                 = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+Runs for Wireless Mesh Node
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_CLICOUNT.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'9\n'
+b'9\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_12_24G_RA0_CLICOUNT.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user clientcountinfo	 	 	 	 | iwpriv ra0 copy_to_user clientcountinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | BSS[00]:     1	 	 	 	 | BSS[00]:     1	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | BSS[01]:     0	 	 	 	 | BSS[01]:     0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | BSS[02]:     0	 	 	 	 | BSS[02]:     0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | BSS[03]:     0	 	 	 	 | BSS[03]:     0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | HT Operating Mode : 3	 	 	 	 | HT Operating Mode : 3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                AID TxPackets   RxPackets   TxBytes     RxBytes     TP(Tx)      TP(Rx)      	 	 	 	 | MAC                AID TxPackets   RxPackets   TxBytes     RxBytes     TP(Tx)      TP(Rx)      	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 6E:17:9A:F8:21:B5  1   856         911         477908      248977      0Mbps       0Mbps       	 	 	 	 | 6E:17:9A:F8:21:B5  1   166         180         59665       33887       0Mbps       0Mbps       	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_RA0_CLI_INFO.log
+b'1\n'
+b'1\n'
+PASS:= ...Special Char Count PASSED
+b'1\n'
+b'1\n'
+PASS:- ...Special Char Count PASSED
+b'6\n'
+b'6\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_13_24G_RA0_CLI_INFO.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user clientinfo	 	 	 	 | iwpriv ra0 copy_to_user clientinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Dump MacTable entries info, EntType=0x20001	 	 	 	 | Dump MacTable entries info, EntType=0x20001	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | HT Operating Mode : 3	 	 	 	 | HT Operating Mode : 3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MAC                MODE AID  BSS PSM WMM MIMOPS RSSI0/1/2 PhMd  BW  MCS   SGI   STBC  Idle   Rate   QosMap 	 	 	 	 | MAC                MODE AID  BSS PSM WMM MIMOPS RSSI0/1/2 PhMd  BW  MCS   SGI   STBC  Idle   Rate   QosMap 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MWDSCap 6E:17:9A:F8:21:B5  200011    0   1   1   0      -74/-68/0  OFDM  20M 7     0   0    261    54     0         , 856, 100%	 	 	 	 | MWDSCap 6E:17:9A:F8:21:B5  200011    0   0   1   0      -62/-60/0  OFDM  20M 7     0   0    300    54     0         , 168, 100%	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | NO                                                              MaxCap:OFDM      20M   7     0   0    	 	 	 	 | NO                                                              MaxCap:OFDM      20M   7     0   0    	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_STA_INFO.log
+b'10\n'
+b'4\n'
+FAIL: = ...Special_Char COUNT FAILED
+b'2\n'
+b'1\n'
+FAIL: - ...Special_Char COUNT FAILED
+b'8\n'
+b'22\n'
+FAIL: : ...Special_Char COUNT FAILED
+TC:TC_ID_14_24G_STA_INFO.log	 -	FAILED/FAILED/FAILED
+COL_FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_STA_INFO.log
+b'28\n'
+b'30\n'
+FAIL: = ...Special_Char COUNT FAILED
+b'3\n'
+b'3\n'
+PASS:- ...Special Char Count PASSED
+b'12\n'
+b'12\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_15_5G_STA_INFO.log	 -	FAILED/PASSED/PASSED
+COL_FAIL
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_C2USR_RSTAT.log
+b'20\n'
+b'20\n'
+PASS:= ...Special Char Count PASSED
+b'2\n'
+b'2\n'
+PASS:- ...Special Char Count PASSED
+b'7\n'
+b'7\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_16_5G_C2USR_RSTAT.log	 -	PASSED/PASSED/PASSED
+ | iwpriv rai0 copy_to_user radiostat	 	 	 	 | iwpriv rai0 copy_to_user radiostat	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | rai0      copy_to_user:	 	 	 	 | rai0      copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ------------------BAND:0-----------------------	 	 	 	 | ------------------BAND:0-----------------------	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDataPacketCnt     = 19758	 	 	 	 | TxDataPacketCnt     = 2863	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDataPacketByte    = 4644637	 	 	 	 | TxDataPacketByte    = 754260	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDataPacketCnt     = 0	 	 	 	 | RxDataPacketCnt     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDataPacketByte    = 0	 	 	 	 | RxDataPacketByte    = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxMgmtPacketCnt     = 20	 	 	 	 | TxMgmtPacketCnt     = 42	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxMgmtPacketCnt     = 8	 	 	 	 | RxMgmtPacketCnt     = 21	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxBcnPacketCnt      = 12387	 	 	 	 | TxBcnPacketCnt      = 42793	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ucPktsTx            = 5391	 	 	 	 | ucPktsTx            = 1204	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | mcPktsTx            = 14367	 	 	 	 | mcPktsTx            = 1659	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bcPktsTx            = 0	 	 	 	 | bcPktsTx            = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDroppedPacketCnt  = 0	 	 	 	 | TxDroppedPacketCnt  = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ChannelUtilization  = 0	 	 	 	 | ChannelUtilization  = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxCRCErrorCount     = 0	 	 	 	 | RxCRCErrorCount     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxMICErrorCount     = 0	 	 	 	 | RxMICErrorCount     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDecyptionErrorCnt = 0	 	 	 	 | RxDecyptionErrorCnt = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxTotalErrorCnt     = 0	 	 	 	 | RxTotalErrorCnt     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ThroughPut(TX Kbps)     = 0	 	 	 	 | ThroughPut(TX Kbps)     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ThroughPut(RX Kbps)     = 0	 	 	 	 | ThroughPut(RX Kbps)     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | PER(pct from start)     = 0	 	 	 	 | PER(pct from start)     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Total PER(Last Sec)     = 0	 	 	 	 | Total PER(Last Sec)     = 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Data                            BK              BE              VI              VO	 	 	 	 | Data                            BK              BE              VI              VO	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent    :                0           19742               0              16	 	 	 	 | Packets Sent    :                0            2861               0               2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Rcvd    :                0               0               0               0	 	 	 	 | Packets Rcvd    :                0               0               0               0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RSSI                             0               1               2               3	 	 	 	 | RSSI                             0               1               2               3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Data Rx         :                0               0               0               0	 	 	 	 | Data Rx         :                0               0               0               0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | --------------------------------------------------------------	 	 	 	 | --------------------------------------------------------------	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/24G_C2USR_MBSS.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'0\n'
+b'0\n'
+PASS:- ...Special Char Count PASSED
+b'20\n'
+b'20\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_17_24G_C2USR_MBSS.log	 -	PASSED/PASSED/PASSED
+ | iwpriv ra0 copy_to_user get_mbssinfo	 	 	 	 | iwpriv ra0 copy_to_user get_mbssinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | *******************show mbss proc start*******************	 	 	 	 | *******************show mbss proc start*******************	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Data Packets         :                    1322	 	 	 	 | TX Data Packets         :                     936	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Data Packets         :                     646	 	 	 	 | RX Data Packets         :                    1573	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Data Bytes           :                  123537	 	 	 	 | TX Data Bytes           :                  115923	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Data Bytes           :                   26502	 	 	 	 | RX Data Bytes           :                   71000	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Unicast Packets      :                      51	 	 	 	 | TX Unicast Packets      :                     171	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Unicast Packets      :                     640	 	 	 	 | RX Unicast Packets      :                    1570	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Broadcast Packets    :                     559	 	 	 	 | TX Broadcast Packets    :                     218	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Broadcast Packets    :                       0	 	 	 	 | RX Broadcast Packets    :                       0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Multicast Packets    :                     712	 	 	 	 | TX Multicast Packets    :                     547	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Multicast Packets    :                       6	 	 	 	 | RX Multicast Packets    :                       3	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Failures Packets     :                       0	 	 	 	 | TX Failures Packets     :                       0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Failures Packets     :                       2	 	 	 	 | RX Failures Packets     :                      54	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TX Drop Packets         :                       0	 	 	 	 | TX Drop Packets         :                       0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RX Drop Packets         :                     571	 	 	 	 | RX Drop Packets         :                    1387	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TXBcnPacketCnt          :                   15623	 	 	 	 | TXBcnPacketCnt          :                   53173	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Show WMM Stat	 	 	 	 | Show WMM Stat	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Data                    BK              BE              VI              VO	 	 	 	 | Data                    BK              BE              VI              VO	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent:            0              51               0               0	 	 	 	 | Packets Sent:            0             171               0               0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Rcvd:            0             644               0               2	 	 	 	 | Packets Rcvd:            0            1573               0               0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | *******************show mbss proc end*******************	 	 	 	 | *******************show mbss proc end*******************	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+/mnt/c/Users/Youvanesh/automation/cmdvalid/benchmark/GPON/5G_C2USR_MBSS.log
+b'0\n'
+b'0\n'
+PASS:= ...Special Char Count PASSED
+b'2\n'
+b'2\n'
+PASS:- ...Special Char Count PASSED
+b'31\n'
+b'31\n'
+PASS:: ...Special Char Count PASSED
+TC:TC_ID_18_5G_C2USR_MBSS.log	 -	PASSED/PASSED/PASSED
+ | iwpriv rai0 copy_to_user get_mbssinfo	 	 	 	 | iwpriv rai0 copy_to_user get_mbssinfo	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | rai0      copy_to_user:	 	 	 	 | rai0      copy_to_user:	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ------------------BSS:0-----------------------	 	 	 	 | ------------------BSS:0-----------------------	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDataPacketCnt     : 19790	 	 	 	 | TxDataPacketCnt     : 2972	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDataPacketByte    : 4649567	 	 	 	 | TxDataPacketByte    : 765998	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDataPayloadByte   : 4372507	 	 	 	 | TxDataPayloadByte   : 724390	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDataPacketCnt     : 0	 	 	 	 | RxDataPacketCnt     : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDataPacketByte    : 0	 	 	 	 | RxDataPacketByte    : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDataPayloadByte   : 0	 	 	 	 | RxDataPayloadByte   : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxMgmtPacketCnt     : 20	 	 	 	 | TxMgmtPacketCnt     : 43	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxMgffChlPktCnt     : 0	 	 	 	 | TxMgffChlPktCnt     : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxMgmtPacketCnt     : 8	 	 	 	 | RxMgmtPacketCnt     : 21	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ucPktsTx            : 5423	 	 	 	 | ucPktsTx            : 1237	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ucPktsRx            : 0	 	 	 	 | ucPktsRx            : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | mcPktsTx            : 14367	 	 	 	 | mcPktsTx            : 1735	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | bcPktsTx            : 0	 	 	 	 | bcPktsTx            : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxDroppedPacketCnt  : 0	 	 	 	 | TxDroppedPacketCnt  : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDroppedPacketCnt  : 1086	 	 	 	 | RxDroppedPacketCnt  : 538	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AverageTXRate(Kbps) : 0	 	 	 	 | AverageTXRate(Kbps) : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | AverageRXRate(Kbps) : 0	 	 	 	 | AverageRXRate(Kbps) : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | PER (pcnt)          : 0	 	 	 	 | PER (pcnt)          : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | TxRetriedPktCnt     : 0	 	 	 	 | TxRetriedPktCnt     : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxMICErrorCount     : 0	 	 	 	 | RxMICErrorCount     : 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | RxDecryptionErrorCnt: 0	 	 	 	 | RxDecryptionErrorCnt: 0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MbssLastTxPktRate   : 54	 	 	 	 | MbssLastTxPktRate   : 54	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MbssLastTxPktMCS    : 7	 	 	 	 | MbssLastTxPktMCS    : 7	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MulitcastLastTxRate  : 24	 	 	 	 | MulitcastLastTxRate  : 24	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | MulitcastLastTxMCS   : 4	 	 	 	 | MulitcastLastTxMCS   : 4	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Data                            BK              BE              VI              VO	 	 	 	 | Data                            BK              BE              VI              VO	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Sent    :                0           19774               0              16	 	 	 	 | Packets Sent    :                0            2970               0               2	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | Packets Rcvd    :                0               0               0               0	 	 	 	 | Packets Rcvd    :                0               0               0               0	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | ----------------------------------------------	 	 	 	 | ----------------------------------------------	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | 	 	 	 	 | 	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+ | # exit	 	 	 	 | # exit	 	 	 	PASS
+/mnt/c/Users/Youvanesh/automation/cmdvalid/output/Feb_9_21:05:08/compare_results.log
+TRUE
+[]
+['Device_SN', 'ERM_VERSION', 'FIRMWARE_VERSION', '24G_RA0_DEVINFO', '5G_RAI0_DEVINFO', '24G_RA0_STATINFO', '5G_RAI0_STATINFO', '24G_RA0_GET_STA_LIST', '5G_RAI0_GET_STA_LIST', '24G_RA0_GET_STA_LIST', 'WLM_APCLII0_DEVCONNSTATUS', '24G_RA0_CLICOUNT', '24G_RA0_CLI_INFO', '24G_STA_INFO', '5G_STA_INFO', '5G_C2USR_RSTAT', '24G_C2USR_MBSS', '5G_C2USR_MBSS']
+[True, 'en7528_AA_P_1.1.2.39_FAIL', 'AOT4221SR_R2.2_FAIL', True, True, True, 'COL_FAIL', True, True, True, True, True, 'COL_FAIL', 'COL_FAIL', True, True, True]
+TC:1	 -	 Device_SN 	 	 True  
+TC:2	 -	 ERM_VERSION 	 	 en7528_AA_P_1.1.2.39_FAIL  
+TC:3	 -	 FIRMWARE_VERSION 	 	 AOT4221SR_R2.2_FAIL  
+TC:4	 -	 24G_RA0_DEVINFO 	 	 True  
+TC:5	 -	 5G_RAI0_DEVINFO 	 	 True  
+TC:6	 -	 24G_RA0_STATINFO 	 	 True  
+TC:7	 -	 5G_RAI0_STATINFO 	 	 COL_FAIL  
+TC:8	 -	 24G_RA0_GET_STA_LIST 	 	 True  
+TC:9	 -	 5G_RAI0_GET_STA_LIST 	 	 True  
+TC:10	 -	 24G_RA0_GET_STA_LIST 	 	 True  
+TC:11	 -	 WLM_APCLII0_DEVCONNSTATUS 	 	 True  
+TC:12	 -	 24G_RA0_CLICOUNT 	 	 True  
+TC:13	 -	 24G_RA0_CLI_INFO 	 	 COL_FAIL  
+TC:14	 -	 24G_STA_INFO 	 	 COL_FAIL  
+TC:15	 -	 5G_STA_INFO 	 	 True  
+TC:16	 -	 5G_C2USR_RSTAT 	 	 True  
+TC:17	 -	 24G_C2USR_MBSS 	 	 True  

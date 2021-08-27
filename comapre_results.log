@@ -1,0 +1,44 @@
+ | iwpriv ra0 copy_to_user devinfo	 	 	 	 | iwpriv ra0 copy_to_user devinfo	 	 	 	PASS
+ | ra0       copy_to_user:	 	 	 	 | ra0       copy_to_user:	 	 	 	PASS
+ | Device MAC	 	 	 	 | Device MAC	 	 	 	PASS
+ | Operation Mode: AP	 	 	 	 | Operation Mode: AP	 	 	 	PASS
+ | WirelessMode: B/G/gN(14)	 	 	 	 | WirelessMode: B/G/gN(14)	 	 	 	PASS
+ | Channel: 1	 	 	 	 | Channel: 1	 	 	 	PASS
+ |         CentralChannel: 3	 	 	 	 |         CentralChannel: 3	 	 	 	PASS
+ |         RF Channel: 3	 	 	 	 |         RF Channel: 3	 	 	 	PASS
+ | Bandwidth	 	 	 	 | Bandwidth	 	 	 	PASS
+ |         HT-BW: 20/40	 	 	 	 |         HT-BW: 20/40	 	 	 	PASS
+ | Security	 	 	 	 | Security	 	 	 	PASS
+ | ### BSS(0)	 	 	 	 | ### BSS(0)	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | AuthMode(7)=WPA2PSK	 	 	 	 | AuthMode(7)=WPA2PSK	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | WepStatus(6)=AES	 	 	 	 | WepStatus(6)=AES	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | I/F(ra0) WPAPSK Key =>12345679	 	 	 	 | I/F(ra0) WPAPSK Key =>12345679	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | ### BSS(1)	 	 	 	 | ### BSS(1)	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | AuthMode(7)=WPA2PSK	 	 	 	 | AuthMode(7)=WPA2PSK	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | WepStatus(6)=AES	 	 	 	 | WepStatus(6)=AES	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | I/F(ra1) WPAPSK Key =>Airtel@123	 	 	 	 | I/F(ra1) WPAPSK Key =>Airtel@123	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | ### BSS(2)	 	 	 	 | ### BSS(2)	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | AuthMode(7)=WPA2PSK	 	 	 	 | AuthMode(7)=WPA2PSK	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | WepStatus(6)=AES	 	 	 	 | WepStatus(6)=AES	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | I/F(ra2) WPAPSK Key =>Airtel@123	 	 	 	 | I/F(ra2) WPAPSK Key =>Airtel@123	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | ### BSS(3)	 	 	 	 | ### BSS(3)	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | AuthMode(0)=OPEN	 	 	 	 | AuthMode(0)=OPEN	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | WepStatus(1)=NONE	 	 	 	 | WepStatus(1)=NONE	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | open mode ,none key	 	 	 	 | open mode ,none key	 	 	 	PASS
+ | 	 	 	 	 | 	 	 	 	PASS
+ | exit	 	 	 	 | exit	 	 	 	PASS

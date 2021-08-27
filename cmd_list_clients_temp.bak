@@ -1,0 +1,14 @@
+cat /tmp/sn
+cat /tmp/erm/version
+cat /tmp/fw_ver
+iwpriv ra0 copy_to_user devinfo
+iwpriv rai0 copy_to_user devinfo
+iwpriv ra0 copy_to_user statinfo
+iwpriv rai0 copy_to_user statinfo
+iwpriv ra0 copy_to_user get_stalist
+iwpriv rai0 copy_to_user get_stalist
+iwpriv apclii0 copy_to_user devconnStatus
+iwpriv ra0 copy_to_user clientcountinfo
+iwpriv ra0 copy_to_user clientinfo
+iwpriv ra0 copy_to_user get_stainfo=24G_TEST_CLIENT
+iwpriv rai0 copy_to_user get_stainfo=5G_TEST_CLIENT
